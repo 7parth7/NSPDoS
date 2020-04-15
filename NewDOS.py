@@ -32,7 +32,6 @@ def GetTheInterface():
 	return Interface
 
 def attackbegin(intlmao,Victim,gatelmao):
-	#Enable this at the end
 	command11 = "sysctl -w net.ipv4.ip_forward=0" + ">/dev/null 2>&1"
 	os.system(command11)
 	os.system("sysctl -p")
