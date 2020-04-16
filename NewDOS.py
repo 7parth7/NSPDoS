@@ -1,4 +1,4 @@
-import os,time
+import os
 
 os.system('clear')
 os.system('figlet NSP DOS Attack')
